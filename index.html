@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mickey Mouse – The Fan Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <strong>🐭 Mickey Mouse</strong>
+    <a href="#about">About</a>
+    <a href="#likes">Likes</a>
+    <a href="#home">Home</a>
+    <a href="#friends">Friends</a>
+    <a href="#shows">Shows</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#facts">Fun Facts</a>
+  </nav>
+
+  <header class="hero">
+    <div class="mickey-face" aria-hidden="true">
+      <div class="ear left"></div>
+      <div class="ear right"></div>
+      <div class="face">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="nose"></div>
+        <div class="smile"></div>
+      </div>
+    </div>
+    <h1>Oh, Boy! It's Mickey Mouse!</h1>
+    <p>The world's most famous mouse, cheerful since 1928.</p>
+    <p id="birthday-note"></p>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Mickey</h2>
+      <p>
+        Mickey Mouse is a cartoon character created by <strong>Walt Disney</strong> and
+        animator <strong>Ub Iwerks</strong>. He is a cheerful, brave, and curious mouse who
+        always tries to do the right thing. Mickey became the mascot of The Walt Disney Company
+        and one of the most recognizable characters in the world.
+      </p>
+      <table>
+        <tr><th>Full name</th><td>Mickey Mouse</td></tr>
+        <tr><th>Birthday</th><td>November 18, 1928 (<em>Steamboat Willie</em> premiere)</td></tr>
+        <tr><th>Created by</th><td>Walt Disney &amp; Ub Iwerks</td></tr>
+        <tr><th>Species</th><td>Anthropomorphic mouse</td></tr>
+        <tr><th>Signature look</th><td>Round ears, red shorts, yellow shoes, white gloves</td></tr>
+        <tr><th>Catchphrases</th><td>"Oh, boy!", "Hot dog!", "Gosh!", and his famous giggle "Ha-ha!"</td></tr>
+        <tr><th>Girlfriend</th><td>Minnie Mouse</td></tr>
+        <tr><th>Pet</th><td>Pluto the dog</td></tr>
+        <tr><th>Arch-enemy</th><td>Pete</td></tr>
+        <tr><th>Voiced by</th><td>Walt Disney, Jimmy MacDonald, Wayne Allwine, Bret Iwan</td></tr>
+      </table>
+    </section>
+
+    <section id="likes">
+      <h2>What Mickey Likes to Do</h2>
+      <div class="cards">
+        <div class="card">🎺<h3>Making music</h3><p>Playing the piano, tooting a horn, and whistling a happy tune.</p></div>
+        <div class="card">🕵️<h3>Solving mysteries</h3><p>Mickey is a natural detective and loves a good puzzle.</p></div>
+        <div class="card">🎈<h3>Adventures</h3><p>From the high seas to outer space, he's always up for the next adventure.</p></div>
+        <div class="card">🎩<h3>Magic</h3><p>Remember the sorcerer's hat from <em>Fantasia</em>? He's a fan of magic tricks.</p></div>
+        <div class="card">🤝<h3>Helping friends</h3><p>He'll drop everything to lend a hand to a pal in need.</p></div>
+        <div class="card">🎢<h3>Having fun</h3><p>Parades, theme parks, and big goofy laughs with his gang.</p></div>
+      </div>
+    </section>
+
+    <section id="home">
+      <h2>Where Mickey Lives</h2>
+      <p>
+        In the cartoons, Mickey lives in <strong>Mouseton</strong> (also known as
+        <strong>Mouse Town</strong>), a cheerful town full of talking animals. In the
+        <strong>Mickey Mouse Clubhouse</strong> series, his gang hangs out at the
+        Clubhouse, a big house shaped like his head.
+      </p>
+      <p>
+        You can also visit his house in real life! <strong>Mickey's House</strong> in
+        <strong>Mickey's Toontown</strong> at Disneyland (California) lets guests walk through
+        his home and meet him in person. Mickey also has homes at other Disney parks around the
+        world, including Walt Disney World (Florida), Tokyo Disney Resort, Disneyland Paris,
+        Hong Kong Disneyland, and Shanghai Disney Resort.
+      </p>
+    </section>
+
+    <section id="friends">
+      <h2>Mickey's Friends (and One Foe)</h2>
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="friend">Friends</button>
+        <button class="filter" data-filter="foe">Foes</button>
+      </div>
+      <div class="cards" id="friend-list"></div>
+    </section>
+
+    <section id="shows">
+      <h2>Shows &amp; Movies</h2>
+      <p>Click a title to see more.</p>
+      <div id="show-list"></div>
+    </section>
+
+    <section id="timeline">
+      <h2>Mickey Through the Years</h2>
+      <ul class="timeline">
+        <li><b>1928</b> Mickey debuts. <em>Plane Crazy</em> is tested first; <em>Steamboat Willie</em> premieres on Nov 18 with synchronized sound.</li>
+        <li><b>1929</b> Mickey starts talking, and Walt Disney provides his voice.</li>
+        <li><b>1930</b> Mickey Mouse comic strip begins.</li>
+        <li><b>1935</b> <em>The Band Concert</em>, Mickey's first color cartoon.</li>
+        <li><b>1940</b> <em>Fantasia</em>: "The Sorcerer's Apprentice."</li>
+        <li><b>1955</b> <em>The Mickey Mouse Club</em> airs; Disneyland opens in California.</li>
+        <li><b>1978</b> Mickey gets a Hollywood Walk of Fame star (he's the first cartoon character to).</li>
+        <li><b>1983</b> <em>Mickey's Christmas Carol</em> brings him back to the big screen.</li>
+        <li><b>2006</b> <em>Mickey Mouse Clubhouse</em> launches for preschoolers.</li>
+        <li><b>2013</b> A new series of short cartoons revives his classic slapstick style.</li>
+        <li><b>2021</b> <em>Mickey Mouse Funhouse</em> arrives.</li>
+        <li><b>2024</b> The original 1928 "Steamboat Willie" version enters the US public domain.</li>
+      </ul>
+    </section>
+
+    <section id="facts">
+      <h2>Fun Facts</h2>
+      <div class="fact-box">
+        <p id="fact-text">Click the button to learn something about Mickey!</p>
+        <button id="fact-btn">Tell me a fact!</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>An unofficial fan page made with HTML, CSS, and JavaScript.</p>
+    <p>Mickey Mouse is a character of The Walt Disney Company. This page is not affiliated with Disney.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
